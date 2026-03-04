@@ -1,0 +1,18 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap");
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #050f27;
+  --color-primary: #050f27;
+  --color-muted: #f7f8f8;
+  --color-text-secondary: #2a3347;
+  --color-dark: #111b31;
+  --font-satoshi: "Satoshi", sans-serif;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-satoshi);
+}
