@@ -67,7 +67,7 @@ $RECYCLE.BIN/
 
 # Windows Installer files
 *.cab
-*.msi
+*.msi2
 *.msm
 *.msp
 
@@ -88,3 +88,6 @@ yarn-error.log
 .yarn/build-state.yml
 .pnp.*
 .idea
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
